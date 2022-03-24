@@ -1,0 +1,51 @@
+body{
+	background-color: #FFFACD;
+	text-align: center;
+	color: #008080;
+	margin: 60px; 
+	font-family: arial;
+}
+
+h1{
+	font-family: arial;
+	color: #2F4F4F;
+	text-align: center;
+	font-size: 60px;
+}
+
+h2{
+	text-align:center;
+}
+
+img{
+	margin: 30px; 
+	width: 120px
+}
+
+.torre{
+	width: 700px
+}
+
+li{
+	text-align: left;
+	color:#FF4500;
+	text-decoration:underline; 
+}
+
+ul{
+	color: orange;
+}
+
+
+table{
+	text-align:center;
+	display: flex;
+	margin-left: 35%;
+
+}
+footer{
+	background-color: orange;
+	color: white;
+}
+
+	

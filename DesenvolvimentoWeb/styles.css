@@ -1,0 +1,103 @@
+body {
+    margin: auto;
+    font-family:  Helvetica,;
+    background-color: aliceblue;
+}
+
+.conteiner{
+    margin: center;
+    border: 15px ;
+    padding: 50px;
+    margin: 20px;
+}
+
+.logo{
+    height: 50px;
+}
+nav{
+    margin-right: 55%;
+    display: flex;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    margin-left: 150%;
+    display: flex;
+    list-style: none;
+     
+}
+
+li{
+    color: grey;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: gray;
+}
+
+header{
+    contain: layout;
+}
+
+.banner {
+    background-image: url(imgs/banner.jpg);
+    width: 1290px;
+    height: 450px;
+    float: inline-end;
+    margin: center;
+}
+
+.caixa{
+    font-family: Helvetica;
+    color: aliceblue;
+    background-color:  rgba(29, 29, 29, 0.664);
+    display: inline-block;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 60px;
+    word-wrap: break-word;
+  }
+
+
+.depoimentos{
+    color: aqua;
+}
+
+.TexCai{
+    vertical-align: auto;
+    word-wrap: break-word;
+}
+
+section{
+    display: flex;
+    margin-top: 30px;
+    padding: 50px;
+    margin: 10px;
+    color: rgba(77, 77, 77, 0.884);
+    font-family:  Helvetica;
+    margin-right: 50%;
+}
+
+h2{
+    font-family: Helvetica;
+}
+
+
+.coluna{
+    margin: 10px;
+}
+
+img{
+    height: 250px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 20px;
+}
+

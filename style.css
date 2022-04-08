@@ -2,12 +2,18 @@ body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     color: #444;
-    font-size: 100%;
+    font-size: 62,5%; 
+}
+
+*,*:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a{
     text-decoration: none;
-    font-size: 16px;    
+    font-size: 1.6em;  /*16px*/
     color: #0cf;
 }
 
@@ -25,19 +31,19 @@ img{
 }
 
 header{
-    width: 100%;
-    height: 48px;
-    margin-top: 36px;
-    margin-bottom: 36px;
+    width: 100%; /*100%*/ /*transformar em %*/
+    height: 48px; /*48px*/
+    margin-top: 3.2%;/*36px*/ /*transformar em %*/ 
+    margin-bottom: 3.2%; /*36px*/ /*transformar em %*/
 }
 
 .logo{
-    width: 234px;
+    width: 21%;/*234px*/ /*transformar em %*/
     float: left;
 }
 
 nav{
-    width: 840px;
+    width: 70%; /*840px*/ /*transformar em %*/
     float: right;
 }
 
@@ -46,9 +52,9 @@ nav ul{
 }
 
 nav li{
-    font-size: 12px;
-    margin-left: 20px;
-    margin-top: 10px;
+    font-size: 1em; /*12px*/ 
+    margin-left: 1.5%; /*20px*/ /*transformar em %*/
+    margin-top: .9%; /*10px*/ /*transformar em %*/
     display: inline-block;
 }
 
@@ -60,37 +66,37 @@ nav li a{
 
 .banner{
     background: url('imgs/banner.jpg');
-    height: 450px;
-    margin-bottom: 48px;
+    height: 450px; /*450px*/ /*mantem altura*/
+    margin-bottom: 4.2%; /*48px*/ /*transformar em %*/
     position: relative;
 }
 
 .caixa{
     position: absolute;
-    top: 48px;
+    top: 4.2%; /*48px*/ /*transformar em %*/
     background: rgba(0, 0, 0, 0.6);
-    width: 480px;
-    padding: 24px 14px 24px 40px;
+    width: 48.0em; /*480px*/ /*transformar em %*/
+    padding: 2% 1% 2% 3%; /*24px 14px 24px 40px*/ /*transformar em %*/
 }
 
 h1{
-    font-size: 40px;
+    font-size: 4em; /*40px*/
     color: #fff;
     margin-bottom: 0;
     margin-top: 0;
 }
 
 .caixa p{
-    font-size: 18px;
+    font-size: 2em; /*18px*/
     color: #fff;
 }
 
 /*section*/
 
 section div{
-    width: 264px;
+    width: 23.40%; /*264px*/ /*transformar em %*/
     float: left;
-    margin-right: 24px;
+    margin-right: 2.13%; /*24px*/ /*transformar em %*/
 }
 
 section>div:last-child{
@@ -99,11 +105,11 @@ section>div:last-child{
 
 footer{
     width: 100%;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 2.13%; /*24px*/ /*transformar em %*/
+    margin-bottom: 2.13%; /*24px*/ /*transformar em %*/
 }
 
 .footer{
-    font-size: 10px;
+    font-size: 1.0em; /*10px*/
     margin-bottom: 0;
 }

@@ -1,0 +1,65 @@
+/* css do tuts town
+*/
+
+body{
+    background-color: #FAF8DA;
+    font-family: 'Open Sans';
+    margin: 0%;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: #205D76 ;
+    font-size: 70px;
+}
+.castelinho{
+    width: 650px;
+}
+
+article{
+display: flex;
+margin: 50px auto;
+width: 450px;
+}
+
+.Hotel{
+    width: 200px;
+
+}
+
+.Food{
+    width: 200px;
+}
+
+.Shop{
+    width: 200px;
+}
+
+div{
+  margin-left: 30px;
+}
+h2{
+    color: #205D76;
+    font-size: 30px;
+}
+ul{
+    color: #ffc122;
+    padding-left: 15px;
+}
+li{
+    margin-bottom: 10px;
+}
+a{
+    color: #ea6e2f;
+    font-size: 20px;
+}
+p{
+    color: #ffffff;
+  
+}
+footer{
+background-color: #ffc122;
+text-align: center;
+padding: 2px;
+}
